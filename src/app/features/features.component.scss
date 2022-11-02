@@ -1,0 +1,11 @@
+.sidebar {
+  height: 100%;
+  padding: 1rem 0 1rem 0.5rem;
+  border: 1px solid #000000;
+  .list {
+    li {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+  }
+}

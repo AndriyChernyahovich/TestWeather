@@ -1,0 +1,15 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+
+  .contact {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+

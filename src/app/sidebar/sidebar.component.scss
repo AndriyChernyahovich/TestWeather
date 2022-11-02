@@ -1,0 +1,14 @@
+.sidebar {
+  height: 100%;
+  padding: 1rem 0 1rem 0.5rem;
+  border: 1px solid #000000;
+  display: flex;
+  .list {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    li {
+      list-style: none;
+    }
+  }
+}

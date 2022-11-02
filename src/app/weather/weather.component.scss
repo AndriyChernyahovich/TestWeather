@@ -1,0 +1,24 @@
+.container {
+  height: 100%;
+  padding: 0 0 1rem 0.5rem;
+  border: 1px solid #000000;
+
+  .title {
+    margin-bottom: 1rem;
+  }
+
+  .paragraph {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .container {
+    .title {
+      font-size: 20px;
+    }
+    .paragraph {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="logo">
+    <h1>LOGO</h1>
+  </div>
+  <button class="btn-burger" (click)="showMobileMenu()" style="z-index: 20;">
+    <img src="assets/{{isMobileHidden ? 'close' : 'burger-menu'}}.svg">
+  </button>
+  <nav class="navbar" [ngClass]="{'mobile-menu': isMobileHidden}">
+    <ul class="list">
+      <li>Topic 1</li>
+      <li>Topic 2</li>
+      <li>Topic 3</li>
+      <li>Topic 4</li>
+    </ul>
+  </nav>
+</div>

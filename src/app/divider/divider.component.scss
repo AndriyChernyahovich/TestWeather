@@ -1,0 +1,9 @@
+.divider {
+margin: 2rem 0 0.5rem 0;
+}
+
+@media (max-width: 360px) {
+  .divider {
+    opacity: 0;
+  }
+}
