@@ -1,8 +1,8 @@
 .container {
-  border: 1px solid #000000;
-  padding: 10px 5px 10px 5px;
-
+  padding: 10px 5px 2rem 5px;
+  height: 100vh;
   .main {
+    height: calc(100% - 70px - 2rem);
     display: grid;
     grid-template-areas:
       "sidebar big-heading feature"
@@ -40,9 +40,11 @@
   };
 }
 
-@media (max-width: 360px) {
+@media (max-width: 720px), ( max-height: 950px) {
   .container {
+
     .main {
+      height: calc(100% - 70px);
       grid-template-areas:
   "small-heading small-heading"
     "weather feature"
